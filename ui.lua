@@ -4576,9 +4576,9 @@ function library:init()
     
     -- Watermark
     do
-        if not IonHub_User then
-            getgenv().IonHub_User = {
-                UID = 99, 
+        if not Pluto_User then
+            getgenv().Pluto_User = {
+                UID = 0, 
                 User = "pluto.rest"
             }
         end
@@ -4586,7 +4586,7 @@ function library:init()
             objects = {};
             text = {
                 {self.cheatname, true},
-                {("HI"):format(IonHub_User.User, tostring(IonHub_User.UID)), true},
+                {("HI"):format(Pluto_User.User, tostring(Pluto_User.UID)), true},
                 {self.gamename, true},
                 {'0 fps', true},
                 {'0ms', true},
