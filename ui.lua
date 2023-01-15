@@ -4578,7 +4578,7 @@ function library:init()
     do
         if not IonHub_User then
             getgenv().IonHub_User = {
-                UID = 0, 
+                UID = 99, 
                 User = "pluto.rest"
             }
         end
