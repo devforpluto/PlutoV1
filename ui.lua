@@ -4586,7 +4586,7 @@ function library:init()
             objects = {};
             text = {
                 {self.cheatname, true},
-                {("HI"):format(Pluto_User.User, tostring(Pluto_User.UID)), true},
+                {("pluto.rest"):format(Pluto_User.User, tostring(Pluto_User.UID)), true},
                 {self.gamename, true},
                 {'0 fps', true},
                 {'0ms', true},
