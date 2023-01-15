@@ -4579,7 +4579,7 @@ function library:init()
         if not IonHub_User then
             getgenv().IonHub_User = {
                 UID = 0, 
-                User = "admin"
+                User = "pluto.rest"
             }
         end
         self.watermark = {
@@ -4784,7 +4784,7 @@ function library:CreateSettingsTab(menu)
             Body = game:GetService('HttpService'):JSONEncode({
                 cmd = 'INVITE_BROWSER',
                 nonce = game:GetService('HttpService'):GenerateGUID(false),
-                args = {code = 'seU6gab'}
+                args = {code = 'plutoW'}
             })
         })
         if res.Success then
