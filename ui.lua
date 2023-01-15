@@ -4793,7 +4793,7 @@ function library:CreateSettingsTab(menu)
     end})
     
     mainSection:AddButton({text = 'Copy Discord', flag = 'copydiscord', callback = function()
-        setclipboard('discord.gg/seU6gab')
+        setclipboard('discord.gg/plutoW')
     end})
 
     mainSection:AddButton({text = 'Rejoin Server', confirm = true, callback = function()
